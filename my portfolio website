@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .nav1{
+           background-color: black;
+        }
+        .nav2{
+          padding: 20px;
+          text-align: right;
+        }
+        .nav2 a{
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            text-align: right;
+            padding: 20px;
+        }
+        .nav2 a:hover{
+            color: teal;
+            background-color: tomato;
+            text-shadow: 1px 2px 3px red;
+            border-radius: 10%;
+        }
+        @media screen and (max-width: 800px) {
+            .nav2 a {
+                 display: block;
+            }
+        }
+         img{
+            text-align: left;
+            width: 200px;
+            height: 150px;
+            margin-top: -6%;
+            margin-left: 30px;
+        }
+        @media screen and (max-width: 600px) {
+            img {
+                 width: 150;
+                 height: 50px;
+            }
+        }
+        .container{
+            
+            width: 600px;
+            height: 600px;
+            margin-top: 100px;
+        }
+        .container p{
+            
+            text-transform: capitalize;
+            font-size: 25px;
+        }
+        .container h1{
+            text-shadow: 1px 2px 3px purple;
+            text-transform: capitalize;
+            font-weight: bold;
+            font-size: 60px;
+             margin-top: 15px;
+        }
+        .container h1 span{
+            color: rebeccapurple;
+        }
+        .container h2{
+            text-shadow: 1px 2px 3px purple;
+            text-transform: capitalize;
+            margin-top: 10px;
+            font-size: 50px;
+            font-weight: bold;
+        }
+        
+         .shape{
+            margin-bottom: 25pxpx;
+            margin-left: 700px;
+            width: 500px;
+            height: 500px;
+            top: 200px;
+            padding: 5px;
+            bottom: 300px;
+            position: absolute;
+            
+        }
+        
+        
+        .kav{
+            position: absolute;
+            bottom: 30px;
+            width: 300px;
+             right: 200px;
+            height: 550px;
+           transition-duration: 6s;
+           transform-style: flat;
+           transition-timing-function: ease-in-out;
+           transform: top 3s, right 3s;
+           
+        }
+        .kav:hover{
+            top: 3s;
+            right: 1s;
+            margin-left: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav1">
+        <div class="nav2">
+           
+            <a href="#">HOME</a>
+            <a href="im.html">PROJECTS</a>
+            <a href="cv.pdf">MY CV</a>
+            <a href="contacts.html">CONTACT</a>
+            <a href="periodic.html">PERIODIC TABLE</a>
+            <a href="portfolio12.html">MY PORTFOLIO</a>
+        </div>
+    </div>
+    <img src="lo.png" alt="">
+    <div class="container">
+        <p>welcome to my world</p>
+        <h1>hi, i'm <span>KA</span>V<span>IT</span>A </h1>
+        <h2>web developer</h2>
+        <img src="shape.png" alt="" class="shape">
+        <img src="pic-removebg-preview.png" alt="" class="kav">
+    </div>
+     <h1 class="oil">{PROJECTSS}</h1>
+    <!-- 2nd portion -->
+    <!-- projects -->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            .cards{
+                width: 20%;
+                height: 280px;
+                background-color: burlywood;
+                cursor: pointer;
+                margin: 20px;
+               display: inline-block;
+                box-shadow: 2px 3px 1px 4px black;
+                transition-property: all;
+                transition-duration: 2s;
+                transition-timing-function: ease;
+                transform: translate(20%);
+            }
+            
+            .image img{
+                width: 170px;
+            }
+            .cards:hover{
+                background-color: cadetblue;
+                transition: 2s;
+                top: 10px;
+                bottom: 100px;
+                transform: translate(-20%);
+            }
+            .title h1{
+                 text-align: center;
+                 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            .description p{
+                text-align: center;
+                   }
+             @media screen and (max-width: 700px) {
+                .cards {
+                    display: block;
+                    width: 40%;
+                    height: 300px;
+                }
+             }
+
+             .oil{
+                 text-align: center;
+                 text-decoration: double underline purple;
+                 font-size: 50px;
+                 margin-bottom: 100px;
+             }
+        </style>
+    </head>
+    <body>
+        <div class="cards">
+            <div class="image">
+             <a href="form.html" target="blank"> <img src="form1.PNG" alt=""></a>
+            </div>
+            <div class="title">
+                <h1>Card No1</h1>
+            </div>
+            <div class="description">
+            <p>REGISTRATION FORM (plzz click on this image then it shows my project)</p>
+            </div>
+        </div>
+    
+        <!-- 2 card -->
+        <div class="cards">
+            <div class="image">
+            <a href="contacts.html" target="blank">    <img src="contact2.PNG" alt="" class="sndimg"></a>
+            </div>
+            <div class="title">
+                <h1>Card No2</h1>
+            </div>
+            <div class="description">
+                <p>CONTACT US PROJECT(plzz click on this image then it shows my project) </p>
+            </div>
+        </div>
+    
+        <!-- 3 card -->
+        <div class="cards">
+            <div class="image">
+             <a href="governor.html" target="blank" > <img src="portj.jpg" alt=""></a>
+            </div>
+            <div class="title">
+                <h1>Card No3</h1>
+         </div>
+          <div class="description">
+                <p>this project acts like a portfolio <br>(plzz click on this image to see my project)</p>
+            </div>
+        </div>
+    
+        <!-- 4 card -->
+        
+        <div class="cards">
+            <div class="image">
+               <a href="bnm.html" target="blank"> <img src="mini.PNG" alt=""></a>
+            </div>
+            <div class="title">
+                <h1>Card No4</h1>
+            </div>
+            <div class="description">
+                <p>this project is act like a mini portfolio project (plzz click on this image to see my project)</p>
+            </div>
+        </div>
+    
+        <!-- 5 cards -->
+        
+        <div class="cards">
+            <div class="image">
+              <a href="bluidup form.html" target="blank">  <img src="mini3.PNG" alt=""></a>
+            </div>
+            <div class="title">
+                <h1>Card No5</h1>
+            </div>
+            <div class="description">
+                <p>2nd registration form project using html and css <br>(plzz click on image to see my project)</p>
+            </div>
+        </div>
+    
+        <!-- 6 cards -->
+        
+        <div class="cards">
+            <div class="image">
+             <a href="artificial intelligence.html" target="blank">  <img src="960x0.webp" alt=""></a>
+            </div>
+            <div class="title">
+                <h1>Card No6</h1>
+            </div>
+            <div class="description">
+                <p>mini artificial intelligence project it is just for practice (plzz click on image to see project)</p>
+            </div>
+        </div>
+    
+        <!-- 7 cards -->
+        
+        <div class="cards">
+            <div class="image">
+              <a href="learning.html" target="blank"><img src="creativity.jpg" alt=""></a>
+            </div>
+            <div class="title">
+                <h1>Card No7</h1>
+            </div>
+            <div class="description">
+                <p>learning is an art project & it is just for practice<br> (plzz click on image to see my project)</p>
+            </div>
+        </div>
+    
+        <!-- 8 cards -->
+        
+        <div class="cards">
+            <div class="image">
+              <a href="periodic.html" target="blank"> <img src="download.png" alt=""> </a>
+            </div>
+            <div class="title">
+                <h1>card no1</h1>
+            </div>
+            <div class="description">
+                <p>periodic table project which i made <br>(plzz click on image to see my periodic table project project) </p>
+            </div>
+        </div>
+    </body>
+    </html>
+    
+    <!-- 3rd portion -->
+    <!-- periodic table -->
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         table{
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin: auto;
+        
+
+         }
+        .col1{
+            color: maroon;
+            background-color: mediumaquamarine;
+            cursor: pointer;
+            
+        }
+       .col1:hover{
+        transform: scale(1.1);
+        z-index: 3;
+        border: black;
+       }
+       .col2{
+            color: rgb(184, 27, 27);
+            background-color: pink;
+            cursor: pointer;
+            
+        }
+       .col2:hover{
+        transform: scale(1.1);
+        z-index: 3;
+        border: black;
+       }
+       .col3{
+            color: rgb(150, 52, 150);
+            background-color: plum;
+            cursor: pointer;
+            
+        }
+       .col3:hover{
+        transform: scale(1.1);
+        z-index: 3;
+        border: black;
+       }
+       .col4{
+            color: black;
+            background-color: rgb(76, 129, 76);
+            cursor: pointer;
+            
+        }
+       .col4:hover{
+        transform: scale(1.1);
+        z-index: 3;
+        border: black;
+       }
+       
+       .col5{
+            color: green;
+            background-color: rgba(99, 128, 128, 0.979);
+            cursor: pointer;
+            
+        }
+       .col5:hover{
+        transform: scale(1.1);
+        z-index: 3;
+        border: black;
+       }
+       .col6{
+            color: teal;
+            background-color: orange;
+            cursor: pointer;
+            
+        }
+       .col6:hover{
+        transform: scale(1.1);
+        z-index: 3;
+        border: black;
+       }
+       .col7{
+            color: blue;
+            background-color: skyblue;
+            cursor: pointer;
+            
+        }
+       .col7:hover{
+        transform: scale(1.1);
+        z-index: 3;
+        border: black;
+       }
+      .kl{
+          color: purple;
+          text-decoration:  double underline blueviolet;
+          text-align: center;
+      }
+      @media screen and (max-width: 700px) {
+            table {
+                 width: 50px;
+                 height: 100px;
+                 
+            }
+        }
+    </style>
+</head>
+
+<body>
+<h1 class="kl">PERIODIC TABLE</h1>
+    <table border="2" class="ty">
+        <tr>
+            <td class="col1">1<br> H </td>
+            <td colspan="16">
+            <td class="col2">2 <br>He</td>
+        </tr>
+        <tr>
+            <td class="col1">3 <br>Le</td>
+            <td class="col2">4 <br>Be</td>
+            <td colspan="10"> </td>
+            <td class="col6">5 <br>B</td>
+            <td class="col7">6 <br>C</td>
+            <td class="col7">7 <br>N</td>
+            <td class="col7">8 <br>O</td>
+            <td class="col7">9 <br>F</td>
+            <td class="col2">10 <br>Ne</td>    
+        </tr>
+        <tr>
+            <td class="col1">11 <br> Na </td>
+            <td class="col2"> 12 <br> Mg </td>
+            <td colspan="10"></td>
+            <td class="col4">13 <br> Al</td>
+            <td class="col6">14 <br> Si</td>
+            <td class="col7">15 <br>P</td>
+            <td class="col7">16 <br>S </td>
+            <td class="col7">17 <br>Cl </td>
+            <td class="col2">18 <br> Ar</td>
+            
+        </tr>
+
+        <tr>
+            <td class="col1">19 <br> K </td>
+            <td class="col2">20 <br> Ca</td>
+            <td class="col3">21 <br> Sc</td>
+            <td class="col3">22 <br>Ti </td>
+            <td class="col3">23 <br> V</td>
+            <td class="col3">24 <br> Cr</td>
+            <td class="col3">25 <br> Mn</td>
+            <td class="col3">26 <br> Fe</td>
+            <td class="col3">27 <br> Co</td>
+            <td class="col3">28 <br> Ni</td>
+            <td class="col3">29 <br> Cu</td>
+            <td class="col3">30 <br> Zn</td>
+            <td class="col4">31 <br> Ga</td>
+            <td class="col6">32 <br>Ge </td>
+            <td class="col6">33 <br> As</td>
+            <td class="col7">34 <br> Se</td>
+            <td class="col7">35 <br> Br</td>
+            <td class="col2">36 <br>Kr </td>
+            
+        </tr>
+
+        <tr>
+            <td class="col1">37 <br>Rb</td>
+            <td class="col2">38 <br>Sr</td>
+            <td class="col3">39 <br>Y</td>
+            <td class="col3">40 <br>Zr</td>
+            <td class="col3">41 <br>Nb</td>
+            <td class="col3">42 <br>Mo</td>
+            <td class="col3">43 <br>Tc</td>
+            <td class="col3">44 <br>Ru</td>
+            <td class="col3">45 <br>Rh</td>
+            <td class="col3">46 <br>Pd</td>
+            <td class="col3">47 <br>Ag</td>
+            <td class="col3">48 <br>Cd</td>
+            <td class="col4">49 <br>In</td>
+            <td class="col7">50 <br>Sn</td>
+            <td class="col6">51 <br>Sb</td>
+            <td class="col6">52 <br>Te</td>
+            <td class="col7">53 <br>I</td>
+            <td class="col2">54 <br>Xe</td>
+            
+        </tr>
+         <tr>
+             <td class="col1">55 <br>Cs </td>
+             <td class="col2">56 <br> Ba</td>
+             <td class="col4">57 <br> La</td>
+             <td class="col3">72 <br>Hf</td>
+             <td class="col3">73 <br>Ta</td>
+             <td class="col3">74 <br>W</td>
+             <td class="col3">75 <br>Re</td>
+             <td class="col3">76 <br>Os</td>
+             <td class="col3">77 <br>Ir</td>
+             <td class="col3">78 <br>Pt</td>
+             <td class="col3">79 <br>Au</td>
+             <td class="col3">80 <br>Hg</td>
+             <td class="col4">81 <br>Ti</td>
+             <td class="col4">82 <br>Pb</td>
+             <td class="col4">83 <br>Bi</td>
+             <td class="col4">84 <br>Po</td>
+             <td class="col4">85 <br>At</td>
+             <td class="col2">86 <br>Rn</td>
+         </tr>
+         <tr>
+             <td class="col1">87 <br> Fr</td>
+             <td class="col2">88 <br> Ra</td>
+             <td class="col2">89 <br> Ac</td>
+             <td class="col3">104 <br>Rf</td>
+             <td class="col3">105 <br>Db</td>
+             <td class="col3">106 <br>Sg</td>
+             <td class="col3">107 <br>Bh</td>
+             <td class="col3">108 <br>Hs</td>
+             <td class="col5" >109 <br>Mt</td>
+             <td class="col5">110 <br>Ds</td>
+             <td class="col5">111 <br>Rg</td>
+             <td class="col5">112 <br>Cn</td>
+             <td class="col5">113 <br>Nh</td>
+             <td class="col5">114  <br>FI</td>
+             <td class="col5">115 <br>Mc</td>
+             <td class="col5">116 <br>Lv</td>
+             <td class="col5">117 <br>Ts</td>
+             <td class="col5">118 <br>Og</td>
+         </tr>
+         
+    </table> </div>
+     <br> <br>
+    <table border="2" class="tu">
+        <tr>
+            <td class="col1">58 <br> Ce</td>
+            <td class="col1">59 <br>Pr</td>
+            <td class="col1">60 <br>Nd</td>
+            <td class="col1">61 <br>Pm</td>
+            <td class="col1">62 <br>Sm</td>
+            <td class="col1">63 <br>Eu</td>
+            <td class="col1">64 <br>Gd</td>
+            <td class="col1">65 <br>Tb</td>
+            <td class="col1">66 <br>Ty</td>
+            <td class="col1">67 <br>Ho</td>
+            <td class="col1">68 <br>Er</td>
+            <td class="col1">69 <br>Tm</td>
+            <td class="col1">70 <br>Yb</td>
+            <td class="col1">71 <br>Lu</td>
+        </tr>
+        <tr>
+            <td class="col2">90 <br>Th</td>
+            <td class="col2">91 <br>Pa</td>
+            <td class="col2">92 <br>U</td>
+            <td class="col2">93 <br>Np</td>
+            <td class="col2">94 <br>Pu</td>
+            <td class="col2">95 <br>Am</td>
+            <td class="col2">96 <br>Cm</td>
+            <td class="col2">97 <br>Bk</td>
+            <td class="col2">98 <br>Cf</td>
+            <td class="col2">99 <br>Es</td>
+            <td class="col2">100 <br>Fd</td>
+            <td class="col2">101 <br>Md</td>
+            <td class="col2">102 <br>No</td>
+            <td class="col2">103 <br>Lr</td>
+        </tr>
+    </table>
+</body>
+</html>
+ 
+     <!-- 4th portion -->
+    <!-- contact -->
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+             margin: 0;
+             padding: 0;
+         }
+         .contact{
+             width: 100%;
+             height: 100vh;
+             background-color: blanchedalmond;
+             display: inline-block;
+             
+         }
+         .contact h1{
+             text-align: center;
+             margin-top: 100px;
+             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         }
+         .contact h3{
+             margin-left: 430px;
+             margin-top: 10px;
+         }
+         .contact h4{
+              margin-left: 420px;
+              font-size: 15px;
+              margin-top: 17px;
+         }
+         .contact h5{
+             margin-left: 750px;
+             font-size: 15px;
+             margin-bottom: 10px;
+             top: 60px;
+
+         }
+        .contact .email{
+            margin-left: 395px;
+            border-radius: 5px;
+            padding: 5px;
+            top: 30px;
+        }
+        .contact .name{
+            margin-left: 200px;
+            padding: 5px;
+            border-radius: 5px;
+
+        }
+        .name:hover{
+            color: purple;
+            background-color: skyblue;
+            padding: 10px;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .email:hover{
+            color: purple;
+            background-color: skyblue;
+            padding: 10px;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .contact .submit{
+            margin-left: 565px;
+            padding: 5px;
+            border-radius: 15px;
+           margin-top: 30px;
+           width: 200px;
+           
+        }
+        .submit:hover{
+            color: rgb(22, 45, 77)7, 30, 187);
+            background-color: hsl(270, 12%, 25%);
+            padding: 10px;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            }
+          .color{
+              background-color:  burlywood;
+              width: 1300px;height: 200px;
+          }
+          
+    </style>
+</head>
+<body>
+   <div class="contact">
+       <h1>CONTACT US</h1>
+       <h3>Any question or remarks? just write us a message.</h3>
+       <h4>Email</h4> <h5>Name</h5> 
+       <input type="email" id="email" name="email" placeholder="Enter a valid email address" class="email">    
+       
+        <input type="email" id="email" name="email" placeholder="Enter your name" class="name"> <br>
+    <a href="#"><input type="submit" id="submit" name="submit" class="submit"></a><br> <br> <br><br><div class="up"><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="color">  </div>
+      </div>
+   
+</body>
+</html>
+</body>
+</html>
